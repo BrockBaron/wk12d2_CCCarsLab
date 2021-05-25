@@ -5,9 +5,9 @@ public class Customer {
 
     private ArrayList<Vehicle> vehicles;
 
-    public Customer(double wallet, ArrayList<Vehicle> vehicles) {
+    public Customer(double wallet) {
         this.wallet = wallet;
-        this.vehicles = vehicles;
+        this.vehicles = new ArrayList<>();
     }
 
     public double getWallet() {
@@ -20,6 +20,10 @@ public class Customer {
 
     public ArrayList<Vehicle> getVehicles() {
         return vehicles;
+    }
+
+    public int getLengthVehicleList(){
+        return vehicles.size();
     }
 
 

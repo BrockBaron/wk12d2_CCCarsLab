@@ -1,14 +1,14 @@
 public class Tyre {
 
-    private int tyreSize;
+    private String tyreSize;
     private String tyreType;
 
-    public Tyre(int tyreSize, String tyreType) {
+    public Tyre(String tyreSize, String tyreType) {
         this.tyreSize = tyreSize;
         this.tyreType = tyreType;
     }
 
-    public int getTyreSize() {
+    public String getTyreSize() {
         return tyreSize;
     }
 
