@@ -21,4 +21,8 @@ public class Dealership {
     public void setTill(double till) {
         this.till = till;
     }
+
+    public int getLengthVehicleList() {
+        return this.vehicles.size();
+    }
 }
